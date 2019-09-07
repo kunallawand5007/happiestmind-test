@@ -10,6 +10,10 @@ package com.happiestmind.api.util;
 public class FindWordRequest {
 
 	String name;
+	
+	public FindWordRequest(String name) {
+	 this.name=name;
+	}
 
 	public String getName() {
 		return name;
